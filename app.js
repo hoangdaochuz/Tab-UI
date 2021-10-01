@@ -22,24 +22,24 @@ tabs.forEach((tab,index) => {
 
 // Cach KHONG su dung Set trong JS
 
-var array = ['a','b','c','d','e','f','d','e','b','c','d','f','g','h','i']
+// var array = ['a','b','c','d','e','f','d','e','b','c','d','f','g','h','i']
 
-function get(array) {
-    var bool = []
-    for(var i=0;i<array.length;i++) {
-        bool[array[i]] = false;
-    }
-    return array.filter((element,index)=>{
-        if(bool[element]!=true){
-            bool[element] = true;
-            return element
-        }
+// function get(array) {
+//     var bool = []
+//     for(var i=0;i<array.length;i++) {
+//         bool[array[i]] = false;
+//     }
+//     return array.filter((element,index)=>{
+//         if(bool[element]!=true){
+//             bool[element] = true;
+//             return element
+//         }
         
-    })
-}
+//     })
+// }
 
-console.log(get(array))
+// console.log(get(array))
 
-// Su dung Set trong JS
-var output = [...(new Set(array))]
-console.log(output)
+// // Su dung Set trong JS
+// var output = [...(new Set(array))]
+// console.log(output)
